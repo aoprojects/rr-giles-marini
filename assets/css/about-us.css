@@ -46,3 +46,10 @@
     width: 100%;
     overflow: hidden;
 }
+.description p {
+    font-size: 15px;
+    line-height: inherit;
+    color: gray;
+    font-weight: 200px;
+    font-family: Lato;
+}
