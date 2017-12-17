@@ -1,10 +1,14 @@
 .about-photo {
-    margin: auto;
     display: block;
-    margin: 0 auto;
-    margin-left: 30%;
+    margin: 30px auto;
+    max-height: 450px;
+    padding: 35px;
+    max-width: 100%;
+    float: left;
 }
-
+.about-photo img {
+    max-height: 400px;
+}
 
 .about-us{
     background: url(assets/images/blacks.jpg) no-repeat center top fixed;
