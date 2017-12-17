@@ -1,0 +1,44 @@
+.about-photo {
+    margin: auto;
+    display: block;
+    margin: 0 auto;
+    margin-left: 30%;
+}
+
+
+.about-us{
+    background: url(assets/images/blacks.jpg) no-repeat center top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.about-us-main-content {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000000;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.about-us {
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
