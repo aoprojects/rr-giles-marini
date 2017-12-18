@@ -128,7 +128,6 @@ textarea {
 .form-control:focus {
     border-color: #fff;
 }
-
 h1,
 h2,
 h3 {
@@ -1178,3 +1177,11 @@ Main components
     color: #fff;
     top: 5px;
 }
+
+.white {
+    color: white;
+}
+
+
+
+
