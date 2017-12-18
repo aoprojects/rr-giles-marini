@@ -1177,7 +1177,10 @@ Main components
     color: #fff;
     top: 5px;
 }
-
+/*colors*/
+.gray-white {
+    color: #ccc;
+}
 .white {
     color: white;
 }
