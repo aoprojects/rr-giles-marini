@@ -14,8 +14,22 @@ body {
     color: white;
     font-weight: 800;
 }
+.brand-area {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.brand-area p {
+    font-size: 25px;
+    font-weight: 200;
+    color: #c59B6C;
+    text-transform: uppercase;
+}
 .gray-background {
     background-color: #ddd;
+}
+.gold {
+    color: #c59B6C;
 }
 /*==========================================
 PRE LOADER 
@@ -861,6 +875,8 @@ Main components
 .cd-menu-trigger {
     display: inline-block;
     position: absolute;
+    margin-right: 20px;
+    margin-top: 10px;
     right: 0;
     top: 0;
     height: 50px;
@@ -912,17 +928,17 @@ Main components
     bottom: -8px;
 }
 @media only screen and (min-width: 768px) {
-    .cd-menu-trigger {
+/*    .cd-menu-trigger {
         top: 16px;
         right: 10px;
         font-size: 16px;
         font-size: 1rem;
-    }
+    }*/
 }
 @media only screen and (min-width: 1170px) {
-    .cd-menu-trigger {
+/*    .cd-menu-trigger {
         right: 60px;
-    }
+    }*/
 }
 
 #main-nav {
