@@ -10,6 +10,9 @@ body {
     font-family: 'robotoregular';
     font-weight: 300;
 }
+.gray-background {
+    background-color: #ddd;
+}
 /*==========================================
 PRE LOADER 
 ==========================================*/
@@ -624,15 +627,15 @@ textarea::-ms-input-placeholder
 }
 
 .portfolio-wrapper2{
-    margin-top:25px;
+    /*margin-top:25px;*/
 }
 .portfolio-wrapper2 .portfolio-item.width-img{
-    width:100%;
+/*    width:100%;
     overflow:hidden;
-    height:243px;
+    height:243px;*/
 }
 .portfolio-wrapper2 .portfolio-item.width-img img{
-    width:100%;
+    /*width:100%;*/
 }
 
 /* For Testimonial Section*/
