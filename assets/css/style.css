@@ -115,6 +115,10 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
     outline: none;
+    color: white;
+}
+textarea {
+    color: white !important;
 }
 .form-control {
     border: 1px solid rgba(0, 0, 0, 0.08);
