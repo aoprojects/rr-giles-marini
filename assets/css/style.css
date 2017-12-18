@@ -663,6 +663,10 @@ textarea::-ms-input-placeholder
         width: 250px;
     }
 }
+#index-page #portfolio .effect-bubba .img-responsive {
+    margin: 0 auto;
+
+}
 /*to make all portfolio item images large enough on all sizes"*/
 .portfolio-wrapper2{
     /*margin-top:25px;*/
