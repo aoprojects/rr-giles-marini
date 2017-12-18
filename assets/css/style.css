@@ -21,8 +21,9 @@ body {
 }
 .brand-area p {
     font-size: 25px;
-    font-weight: 200;
     color: #c59B6C;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
     text-transform: uppercase;
 }
 .gray-background {
