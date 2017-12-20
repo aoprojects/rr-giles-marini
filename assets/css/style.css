@@ -10,6 +10,9 @@ body {
     font-family: 'robotoregular';
     font-weight: 300;
 }
+.about-photo {
+    max-width: 400px;
+}
 #friends-page .container a {
     color: white;
     font-weight: 800;
@@ -662,6 +665,13 @@ textarea::-ms-input-placeholder
         height: 340px;
         width: 250px;
     }
+}
+#index-page .about-photo {
+    margin: 15px !important;
+    max-width: 400px;
+}
+#index-page #about {
+    padding: 30px;
 }
 #index-page #portfolio .effect-bubba .img-responsive {
     margin: 0 auto;
