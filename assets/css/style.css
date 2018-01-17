@@ -667,8 +667,8 @@ textarea::-ms-input-placeholder
     }
 }
 #index-page .about-photo {
-    margin: 15px !important;
-    max-width: 400px;
+    /*margin: 15px !important;*/
+    /*max-width: 400px;*/
 }
 #index-page #about {
     padding: 30px;

@@ -1,13 +1,31 @@
-.about-photo {
+/*for about page photo only*/
+.about-page-photo {
     display: block;
-    margin: 30px auto;
+    margin: 30px;
     max-height: 450px;
     padding: 35px;
-    max-width: 100%;
-    float: left;
+    max-width: 500px;
+    float: left !important;
+}
+.about-page-photo img {
+    max-height: 400px;
+}
+/*for index page about section photo only*/
+.about-photo {
+    display: inline-block;
+    margin: 30px !important;
+    max-height: 450px;
+    max-width: 500px !important;
+    /*float: left !important;*/
+    text-align: center;
 }
 .about-photo img {
     max-height: 400px;
+    max-width: 500px;
+}
+#index-page .about-wrapper .description {
+    /*text-align: text-center;*/
+    float: left;
 }
 
 .about-us{
