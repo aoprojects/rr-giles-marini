@@ -515,6 +515,17 @@ textarea::-ms-input-placeholder
     width: 100%;
     overflow: hidden;
 }
+@media only screen and (max-width: 850px) {
+    .home {
+        background: url(../images/gilles-header-mobile.jpg) no-repeat center top fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        width: 100%;
+        overflow: hidden;
+    }
+}
 .home-wrapper{
     margin-top:240px;
     color:#fff;
