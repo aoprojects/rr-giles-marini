@@ -22,10 +22,13 @@ body {
     top: 30px;
     left: 20px;
 }
+.brand-area a {
+    margin: 0 auto;
+}
 .brand-area p {
     font-size: 25px;
     color: #c59B6C;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poiret One', sans-serif;
     font-weight: 200;
     text-transform: uppercase;
 }
