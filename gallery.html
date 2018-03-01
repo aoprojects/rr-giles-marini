@@ -2,7 +2,8 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <!-- <html class="no-js" lang="en"> --> <!--<![endif]-->
+    <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -45,10 +46,9 @@
  <!--Home page style-->
         <header id="about-us" class="about-us about-us-main-content">
             <div class="brand-area">
-                <a href="index.html"><p color="white">Gilles Marini</p></a>
+                <a href="index.html"><p>Gilles Marini</p></a>
             </div>
             <div class="about sections">
-                <div class="breadcrumbs"> <a href="index.html">Home</a> > <a href="gallery.html"> Gallery </a></div>
                 <div class="container text-center">
                     <div class="row">
                         <div class="div-menu">
@@ -64,10 +64,20 @@
         <section id="portfolio" class="sections">
             <div class="container">
                 <h1 class="text-center">PHOTO GALLERY</h1>
+                <div class="clearfix"></div>
+                <div class="second-level-nav hidden">
+                    <ul>
+                        <li><a href="#portraits-area" class="page-scroll">Portraits</a></li>
+                        <li><a href="#press-events-area" class="page-scroll">Press / Events</a></li>
+                        <li><a href="#publications-area" class="page-scroll">Publications</a></li>
+                        <li><a href="#soccer-area" class="page-scroll">Soccer</a></li>
+                    </ul>
+                </div><!-- end second level nav -->
+                <div class="clearfix"></div>
                 <div class="heading-content text-center">
                     <div class="section-title">
                         <hr>
-                        <h2>Portraits</h2>
+                        <h2 id="portraits-area">Portraits</h2>
                     </div><!-- end section title -->
                 </div><!-- end heading-content -->
                 <div class="row">
@@ -120,7 +130,7 @@
                         <div class="col-lg-12 text-center">
                             <div class="section-title">
                                 <hr>
-                                <h2>Press / Events</h2>
+                                <h2 id="press-events-area">Press / Events</h2>
                                 <br>
                             </div>
                         </div><!-- end .col -->
@@ -189,7 +199,7 @@
                     <div class="col-lg-12 text-center">
                         <div class="section-title">
                             <hr>
-                            <h2>Publications</h2>
+                            <h2 id="publications-area">Publications</h2>
                             <br>
                         </div>
                     </div>
@@ -258,7 +268,7 @@
                     <div class="col-lg-12 text-center">
                         <div class="section-title">
                             <hr>
-                            <h2>Soccer</h2>
+                            <h2 id="soccer-area">Soccer</h2>
                             <br>
                         </div>
                     </div>
