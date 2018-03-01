@@ -898,7 +898,8 @@ Main components
 
 .cd-header {
     position: absolute;
-    top:10%;
+    /*top:10%;*/
+    top: 25px;
     left: 0;
     width: 100%;
     height: 50px;
