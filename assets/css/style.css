@@ -12,6 +12,11 @@ body {
 }
 .about-photo {
     max-width: 400px;
+    margin: 0px;
+    margin-right: 0px !important;
+}
+.about-photo img {
+    margin: 0;
 }
 #friends-page .container a {
     color: white;
@@ -31,6 +36,10 @@ body {
     font-family: 'Poiret One', sans-serif;
     font-weight: 200;
     text-transform: uppercase;
+}
+.fit-into-col {
+    max-height: 100%;
+    padding: 10px;
 }
 .gray-background {
     background-color: #ddd;
@@ -154,7 +163,7 @@ textarea {
     border-color: #fff;
 }
 .gold {
-    color: #a07646;
+    color: #a07646 !important;
 }
 h1,
 h2,
