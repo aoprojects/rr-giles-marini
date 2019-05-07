@@ -40,10 +40,31 @@ body {
 .fit-into-col {
     max-height: 100%;
     padding: 20px;
-    max-height: 400px;
     border-radius: 30px;
     margin: 0 auto;
     text-align: center;
+}
+@media only screen and (max-width: 991px) {
+    .fit-into-col {
+        width: 100%;
+    }
+}
+/*so that the gilles image on about on index will be more vertically aligned with text*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .fit-into-col {
+        position: relative;
+        top: -22px;
+        max-height: 400px;
+    }
+}
+/*at 1200px or larger, gilles' image is smaller to fit in with columns*/
+@media only screen and (min-width: 1200px) {
+    .fit-into-col {
+        max-height: 300px;
+        position: relative;
+        top: -35px;
+        right: -30%;
+    }
 }
 .gray-background {
     background-color: #ddd;
