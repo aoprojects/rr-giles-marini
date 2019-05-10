@@ -344,7 +344,8 @@ section .subtitle-half h5 {
     background-color: rgba(0, 0, 0, .45);
     width: 100%;
     overflow:hidden;
-    min-height:800px;
+    /*min-height:800px;*/
+    height: 100vh;
 }
 .overlay-fluid-block {
     background-color: rgba(0, 0, 0, 0.5);
